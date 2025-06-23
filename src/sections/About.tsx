@@ -40,7 +40,7 @@ export default function About() {
 
           {/* Resume Button */}
           <a
-            href="/public/Resume_Tanya.pdf" // Put this file in /public/
+            href="/public/TanyaShree_Resume.pdf" // Put this file in /public/
             download
             className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
@@ -52,7 +52,7 @@ export default function About() {
         <div className="text-gray-800 dark:text-gray-200 space-y-6">
           {/* Animated Intro */}
           <div className="text-3xl md:text-5xl font-extrabold h-20 flex items-center">
-            <span className="text-black mr-3">I am</span>
+            <span className="text-black dark:text-white mr-3">I am</span>
             <span>
               <Typewriter
                 options={{
