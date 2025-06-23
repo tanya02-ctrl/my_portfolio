@@ -39,12 +39,9 @@ export default function About() {
           </div>
 
           {/* Resume Button */}
-          <a
-            href="/public/TanyaShree_Resume.pdf" // Put this file in /public/
-            download
-            className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
-          >
-            Resume
+          <a href="/public/TanyaShree_Resume.pdf" download
+           className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
+           Resume
           </a>
         </div>
 

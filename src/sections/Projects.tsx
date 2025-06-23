@@ -46,7 +46,7 @@ export default function Projects() {
                 </a>
               </div>
 
-              <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4 text-justify">{project.description}</p>
 
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, i) => (

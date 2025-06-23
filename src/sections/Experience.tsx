@@ -48,7 +48,7 @@ export default function Experience() {
                 </div>
               </div>
 
-              <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 space-y-2 justify-start">
+              <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 space-y-2 text-justify">
                 {exp.responsibilities.map((task, i) => (
                   <li key={i}>{task}</li>
                 ))}
