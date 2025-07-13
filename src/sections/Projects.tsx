@@ -24,6 +24,13 @@ const projects = [
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'OpenWeatherMap API'],
     github: 'https://github.com/tanya02-ctrl/weather-app',
   },
+  {
+    title: 'Airline Market Demand App',
+    description:
+      'Airline Market Demand Web App A Python + Flask web application that fetches, processes, and visualizes airline booking market demand data',
+    technologies: ['Python', 'Flask', 'Chart.js', 'API'],
+    github: 'https://github.com/tanya02-ctrl/airline-market-demand-app',
+  },
 ]
 
 export default function Projects() {
