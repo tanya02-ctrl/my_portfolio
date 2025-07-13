@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import { FaGithub } from 'react-icons/fa'
 
+
 const projects = [
   {
     title: 'Campus Placement Drive',
@@ -13,8 +14,8 @@ const projects = [
   {
     title: 'House Price Prediction',
     description:
-      'A machine learning project to predict house prices based on various features. Built using Python, Flask for the backend, and React for the frontend.',
-    technologies: ['Python', 'Machine Learning', 'Streamlit'],
+      'A machine learning project to predict house prices based on various features. Utilizes Python, Streamlit for the frontend, and scikit-learn for model training. ',
+    technologies: ['Python', 'Machine Learning', 'Streamlit', 'scikit-learn'],
     github: 'https://github.com/tanya02-ctrl/house_price_predictor',
   },
   {
@@ -30,6 +31,13 @@ const projects = [
       'Airline Market Demand Web App A Python + Flask web application that fetches, processes, and visualizes airline booking market demand data',
     technologies: ['Python', 'Flask', 'Chart.js', 'API'],
     github: 'https://github.com/tanya02-ctrl/airline-market-demand-app',
+  },
+  {
+    title: 'Email Spam Detector',
+    description:
+      'A machine learning project where Utilizes Python, Streamlit for the frontend, and scikit-learn for model training. This Streamlit app detects whether an email message is spam or not using a Random Forest Classifier.',
+    technologies: ['Python', 'Streamlit', 'scikit-learn', 'Machine Learning'],
+    github: 'https://github.com/tanya02-ctrl/email-spam-detector',
   },
 ]
 
