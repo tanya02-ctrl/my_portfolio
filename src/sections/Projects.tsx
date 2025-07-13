@@ -10,6 +10,20 @@ const projects = [
     technologies: ['HTML', 'CSS', 'Bootstrap', 'MySQL', 'PHP'],
     github: 'https://github.com/tanya02-ctrl/campus_placement_drive',
   },
+  {
+    title: 'House Price Prediction',
+    description:
+      'A machine learning project to predict house prices based on various features. Built using Python, Flask for the backend, and React for the frontend.',
+    technologies: ['Python', 'Machine Learning', 'Streamlit'],
+    github: 'https://github.com/tanya02-ctrl/house_price_predictor',
+  },
+  {
+    title: 'Weather App',
+    description:
+      'A real-time weather application that fetches data from a public API and displays current weather conditions. Built using React, Tailwind CSS, and OpenWeatherMap API.',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'OpenWeatherMap API'],
+    github: 'https://github.com/tanya02-ctrl/weather-app',
+  },
 ]
 
 export default function Projects() {
